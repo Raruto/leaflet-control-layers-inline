@@ -14,7 +14,7 @@
     "leaflet",
     "control",
     "layers",
-    "inline",
+    "inline"
   ],
   "author": "Raruto",
   "license": "GPL-3.0",
