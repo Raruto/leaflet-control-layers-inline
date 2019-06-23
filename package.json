@@ -1,0 +1,28 @@
+{
+  "name": "leaflet-control-layers-inline",
+  "version": "0.0.1",
+  "description": "A Leaflet plugin that allows to display inline layers control",
+  "main": "leaflet-control-layers-inline.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Raruto/leaflet-control-layers-inline.git"
+  },
+  "keywords": [
+    "leaflet",
+    "control",
+    "layers",
+    "inline",
+  ],
+  "author": "Raruto",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Raruto/leaflet-control-layers-inline/issues"
+  },
+  "homepage": "https://github.com/Raruto/leaflet-control-layers-inline#readme",
+  "peerDependencies": {
+    "leaflet": "^1.3.4"
+  }
+}

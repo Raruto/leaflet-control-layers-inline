@@ -1,0 +1,35 @@
+.leaflet-control-layers-inline {
+  margin: 0;
+  padding: 0;
+}
+
+.leaflet-control-layers-inline .leaflet-control-layers-base {
+  margin: 0;
+  padding: 0;
+}
+
+.leaflet-control-layers-inline .leaflet-control-layers-base input {
+  display: none;
+}
+
+.leaflet-control-layers-inline .leaflet-control-layers-base span {
+  display: inline-block;
+  padding: 9.5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.leaflet-control-layers-inline .leaflet-control-layers-base label {
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 4px -1px;
+}
+
+.leaflet-control-layers-inline .leaflet-control-layers-base input+span {
+  color: #565656;
+}
+
+.leaflet-control-layers-inline .leaflet-control-layers-base input:checked+span {
+  font-weight: 700;
+  color: inherit;
+}
