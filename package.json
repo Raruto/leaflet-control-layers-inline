@@ -1,6 +1,6 @@
 {
   "name": "leaflet-control-layers-inline",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Leaflet plugin that allows to display inline layers control",
   "main": "leaflet-control-layers-inline.js",
   "scripts": {
