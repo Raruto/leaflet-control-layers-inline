@@ -29,6 +29,9 @@
         this.options.collapsed = false;
         L.DomUtil.addClass(this._container, "leaflet-control-layers-inline");
       }
+      if (this.options.className) {
+        L.DomUtil.addClass(this._container, this.options.className);
+      }
       return this._container;
     },
 
