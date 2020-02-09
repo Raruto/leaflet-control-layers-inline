@@ -1,7 +1,7 @@
 # leaflet-control-layers-inline.js
 A Leaflet plugin that allows to display inline layers control
 
-_For a working example see [demo](https://raruto.github.io/examples/leaflet-control-layers-inline/leaflet-control-layers-inline.html)_
+_For a working example see [demo](https://raruto.github.io/leaflet-control-layers-inline/examples/leaflet-control-layers-inline.html)_
 
 ---
 
