@@ -59,3 +59,12 @@
   font-weight: 700;
   color: inherit;
 }
+
+.leaflet-container:not(.leaflet-touch) .leaflet-control-layers-inline .leaflet-control-layers-base span {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.leaflet-container:not(.leaflet-touch) .leaflet-control-layers-inline .leaflet-control-layers-base label {
+  border: none;
+}

@@ -13,8 +13,8 @@ _For a working example see [demo](https://raruto.github.io/leaflet-control-layer
     ...
     <style> html, body, #map { height: 100%; width: 100%; padding: 0; margin: 0; } </style>
     <!-- Leaflet (JS/CSS) -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
     <!-- Leaflet-Control-Layers-Inline -->
     <script src="https://unpkg.com/leaflet-control-layers-inline@latest/leaflet-control-layers-inline.js"></script>
     <script src="https://unpkg.com/leaflet-control-layers-inline@latest/leaflet-control-layers-inline.css"></script>
@@ -96,7 +96,7 @@ _Related: [Leaflet-UI presets](https://github.com/raruto/leaflet-ui)_
 
 ---
 
-**Compatibile with:** leaflet@1.3.4
+**Compatibile with:** leaflet@1.6.0
 
 ---
 
