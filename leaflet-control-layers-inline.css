@@ -17,7 +17,7 @@
   display: none;
 }
 
-.leaflet-control-layers-inline .leaflet-control-layers-base span {
+.leaflet-control-layers-inline .leaflet-control-layers-base input+span {
   display: inline-block;
   padding: 9.5px;
   font-size: 15px;
@@ -25,6 +25,8 @@
 }
 
 .leaflet-control-layers-inline .leaflet-control-layers-base label {
+  font-size: 12px;
+  line-height: 18px;
   display: inline-block;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 4px -1px;
@@ -60,7 +62,7 @@
   color: inherit;
 }
 
-.leaflet-container:not(.leaflet-touch) .leaflet-control-layers-inline .leaflet-control-layers-base span {
+.leaflet-container:not(.leaflet-touch) .leaflet-control-layers-inline .leaflet-control-layers-base input+span {
   padding: 8px;
   font-size: 14px;
 }

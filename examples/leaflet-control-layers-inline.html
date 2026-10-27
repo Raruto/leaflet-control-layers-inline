@@ -7,12 +7,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Leaflet (JS/CSS) -->
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css">
-	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 	<!-- Leaflet-Control-Layers-Inline -->
-	<link rel="stylesheet" href="https://unpkg.com/leaflet-control-layers-inline@0.0.7/leaflet-control-layers-inline.css">
-	<script src="https://unpkg.com/leaflet-control-layers-inline@0.0.7/leaflet-control-layers-inline.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet-control-layers-inline@0.1.0/leaflet-control-layers-inline.css">
+	<script src="https://unpkg.com/leaflet-control-layers-inline@0.1.0/leaflet-control-layers-inline.js"></script>
 
 	<style>
 		html,
@@ -35,7 +35,7 @@
 	<div id="map" class="map"></div>
 
 	<script>
-		var opts = {
+		const opts = {
 			map: {
 				center: [41.4583, 12.7059],
 				zoom: 5,
@@ -72,20 +72,20 @@
 			}
 		};
 
-		var map = L.map('map', opts.map);
+		const map = new L.Map('map', opts.map);
 
-		var baseLayers = {};
+		const baseLayers = {};
 
-		baseLayers["OSM"] = L.tileLayer(opts.osmLayer.url, opts.osmLayer.options);
-		baseLayers["Terrain"] = L.tileLayer(opts.terrainLayer.url, opts.terrainLayer.options);
-		baseLayers["Satellite"] = L.tileLayer(opts.satelliteLayer.url, opts.satelliteLayer.options);
-		baseLayers["Topo"] = L.tileLayer(opts.otmLayer.url, opts.otmLayer.options);
+		baseLayers["OSM"] = new L.TileLayer(opts.osmLayer.url, opts.osmLayer.options);
+		baseLayers["Terrain"] = new L.TileLayer(opts.terrainLayer.url, opts.terrainLayer.options);
+		baseLayers["Satellite"] = new L.TileLayer(opts.satelliteLayer.url, opts.satelliteLayer.options);
+		baseLayers["Topo"] = new L.TileLayer(opts.otmLayer.url, opts.otmLayer.options);
 
-		var zoom = L.control.zoom({
+		const zoom = new L.Control.Zoom({
 			position: 'bottomright'
 		}).addTo(map);
 
-		var control = L.control.layers(baseLayers, null, {
+		const control = new L.Control.Layers(baseLayers, null, {
 			inline: true, // enable inline mode
 			position: 'topleft'
 		}).addTo(map);
