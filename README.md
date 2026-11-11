@@ -1,4 +1,8 @@
 # leaflet-control-layers-inline.js
+
+[![NPM version](https://img.shields.io/npm/v/leaflet-control-layers-inline.svg?color=red)](https://www.npmjs.com/package/leaflet-control-layers-inline)
+[![License](https://img.shields.io/badge/license-GPL%203-blue.svg?style=flat)](LICENSE)
+
 A Leaflet plugin that allows to display inline layers control
 
 _For a working example see [demo](https://raruto.github.io/leaflet-control-layers-inline/examples/leaflet-control-layers-inline.html)_
@@ -96,7 +100,9 @@ _Related: [Leaflet-UI presets](https://github.com/raruto/leaflet-ui)_
 
 ---
 
-**Compatible with:** Leaflet@1.9.4 and Leaflet@2.0.0-beta.3.
+**Compatible with:**
+[![Leaflet 1.9.4](https://img.shields.io/badge/Leaflet-1.9.4-1EB300.svg?style=flat)](https://leafletjs.com/reference.html)
+[![Leaflet 2.0.0-beta.3](https://img.shields.io/badge/Leaflet-2.0.0--beta.3-1EB300.svg?style=flat)](https://leafletjs.com/reference.html)
 
 ---
 
