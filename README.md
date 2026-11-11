@@ -16,8 +16,8 @@ _For a working example see [demo](https://raruto.github.io/leaflet-control-layer
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <!-- Leaflet-Control-Layers-Inline -->
-    <script src="https://unpkg.com/leaflet-control-layers-inline@latest/leaflet-control-layers-inline.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-layers-inline@latest/leaflet-control-layers-inline.css" />
+    <script src="https://unpkg.com/leaflet-control-layers-inline@0.1.0/leaflet-control-layers-inline.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-layers-inline@0.1.0/leaflet-control-layers-inline.css" />
     ...
     </head>
     ```
@@ -96,7 +96,7 @@ _Related: [Leaflet-UI presets](https://github.com/raruto/leaflet-ui)_
 
 ---
 
-**Compatible with:** Leaflet@1.9.4 and Leaflet@2.0.0-alpha.1.
+**Compatible with:** Leaflet@1.9.4 and Leaflet@2.0.0-beta.3.
 
 ---
 

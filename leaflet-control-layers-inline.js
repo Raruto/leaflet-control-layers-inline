@@ -8,14 +8,14 @@
  */
 (function() {
 
-  const layersProto = L.Control.Layers.prototype;
+  const LayersControl = L.LayersControl || L.Control.Layers;
+  const layersProto = LayersControl.prototype;
   const initializeLayersProto = layersProto.initialize;
   const onAddLayersProto = layersProto.onAdd;
 
-  layersProto.options.inline = false;
+  LayersControl.mergeOptions({ inline: false });
 
-  L.Control.Layers.include({
-
+  if (initializeLayersProto) LayersControl.include({
     initialize(baseLayers, overlays, options) {
       options = options || {};
       if (options.inline) {
@@ -23,8 +23,11 @@
       }
       initializeLayersProto.call(this, baseLayers, overlays, options);
     },
+  });
 
+  LayersControl.include({
     onAdd(map) {
+      if (this.options.inline) this.options.collapsed = false;
       onAddLayersProto.call(this, map);
       if (this.options.inline) {
         this.options.collapsed = false;

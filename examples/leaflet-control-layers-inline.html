@@ -81,11 +81,11 @@
 		baseLayers["Satellite"] = new L.TileLayer(opts.satelliteLayer.url, opts.satelliteLayer.options);
 		baseLayers["Topo"] = new L.TileLayer(opts.otmLayer.url, opts.otmLayer.options);
 
-		const zoom = new L.Control.Zoom({
+		const zoom = new (L.ZoomControl || L.Control.Zoom)({
 			position: 'bottomright'
 		}).addTo(map);
 
-		const control = new L.Control.Layers(baseLayers, null, {
+		const control = new (L.LayersControl || L.Control.Layers)(baseLayers, null, {
 			inline: true, // enable inline mode
 			position: 'topleft'
 		}).addTo(map);
