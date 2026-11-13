@@ -24,8 +24,8 @@ _For a working example see [demo](https://raruto.github.io/leaflet-control-layer
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <!-- Leaflet-Control-Layers-Inline -->
-    <script src="https://unpkg.com/leaflet-control-layers-inline@0.2.0/leaflet-control-layers-inline.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-layers-inline@0.2.0/leaflet-control-layers-inline.css" />
+    <script src="https://unpkg.com/leaflet-control-layers-inline@0.2.1/leaflet-control-layers-inline.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-layers-inline@0.2.1/leaflet-control-layers-inline.css" />
     ...
     </head>
     ```
