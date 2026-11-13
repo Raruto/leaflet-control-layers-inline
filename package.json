@@ -4,6 +4,7 @@
   "description": "A Leaflet plugin that allows to display inline layers control",
   "main": "leaflet-control-layers-inline.js",
   "scripts": {
+    "dev": "node build/server.js",
     "build": "esbuild leaflet-control-layers-inline.js --minify --outfile=leaflet-control-layers-inline.min.js",
     "test": "npm run build && cucumber-js",
     "preversion": "node build/version.js",
