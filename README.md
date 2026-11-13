@@ -7,6 +7,10 @@ A Leaflet plugin that allows to display inline layers control
 
 _For a working example see [demo](https://raruto.github.io/leaflet-control-layers-inline/examples/leaflet-control-layers-inline.html)_
 
+<p align="center">
+    <a href="https://raruto.github.io/leaflet-control-layers-inline/examples/leaflet-control-layers-inline.html"><img src="https://raruto.github.io/img/leaflet-control-layers-inline.png" alt="L.Control.Layers, but inline" /></a>
+</p>
+
 ---
 
 ## How to use
